@@ -520,6 +520,7 @@ button {
 .subscribe-form {
   max-height: 40px;
   display: flex;
+  gap: 24px;
 }
 .subscribe-input {
   background-color: transparent;
@@ -661,7 +662,6 @@ button {
 .modal-form {
   border-radius: 4px;
   width: 360px;
-  gap: 24px;
 }
 .modal-lable {
   font-weight: 400;
