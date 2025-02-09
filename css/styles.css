@@ -666,8 +666,6 @@ button {
 .modal-lable {
   font-weight: 400;
   font-size: 12px;
-
-  /* line-height: 14px; */
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
@@ -676,9 +674,10 @@ button {
 }
 .input-wrap {
   position: relative;
+  margin-bottom: 8px;
 }
 .modal-input {
-  border: 1px solid #4d5ae5;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 360px;
   height: 40px;
@@ -688,6 +687,9 @@ button {
   outline: transparent;
   margin-top: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-input:focus + .icon-modal {
+  fill: #4d5ae5;
 }
 .icon-modal {
   fill: #2e2f42;
@@ -795,4 +797,9 @@ button {
 .modal-send-button:hover,
 .modal-send-button:focus {
   background-color: #404bbf;
+  border: none;
+}
+.modal-send-button:hover .icon-check,
+.modal-send-button:focus .icon-check {
+  fill: #ffffff;
 }
