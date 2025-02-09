@@ -567,15 +567,13 @@ button {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  gap: 16px;
 }
 .subscribe-btn:hover,
 .subscribe-btn:focus {
   background-color: #31d0aa;
 }
-.icon-send {
-  fill: #fff;
-  margin-left: 16px;
-}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -751,6 +749,16 @@ button {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
 }
 .policy-link {
   cursor: pointer;
