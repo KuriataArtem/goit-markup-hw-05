@@ -661,6 +661,7 @@ button {
 .modal-form {
   border-radius: 4px;
   width: 360px;
+  gap: 24px;
 }
 .modal-lable {
   font-weight: 400;
