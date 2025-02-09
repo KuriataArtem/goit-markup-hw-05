@@ -485,7 +485,9 @@ button {
 .footer-svg {
   fill: #f4f4fd;
 }
-
+.submit .footer-svg {
+  margin-left: 16px;
+}
 .footer-list {
   display: flex;
   gap: 16px;
