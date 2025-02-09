@@ -485,7 +485,7 @@ button {
 .footer-svg {
   fill: #f4f4fd;
 }
-.submit .footer-svg {
+.footer-svg.footer-svg-end {
   margin-left: 16px;
 }
 .footer-list {
@@ -520,7 +520,6 @@ button {
 .subscribe-form {
   max-height: 40px;
   display: flex;
-  gap: 24px;
 }
 .subscribe-input {
   background-color: transparent;
@@ -552,7 +551,7 @@ button {
 .subscribe-btn {
   font-family: 'Roboto', sans-serif;
   border-radius: 4px;
-  padding: 8px 24px;
+
   min-width: 165px;
   height: 40px;
   background: #4d5ae5;
@@ -569,7 +568,7 @@ button {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  gap: 16px;
+  /* margin-right: 16px; */
 }
 .subscribe-btn:hover,
 .subscribe-btn:focus {
