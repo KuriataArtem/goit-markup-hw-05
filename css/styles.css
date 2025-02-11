@@ -794,8 +794,8 @@ button {
   display: block;
   margin: 0 auto;
 }
-.container-backdrop .modal-send-button:hover,
-.container-backdrop .modal-send-button:focus {
+.modal-send-button:hover,
+.modal-send-button:focus {
   background-color: #404bbf;
   border: none;
   color: #ffffff;
