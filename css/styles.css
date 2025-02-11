@@ -626,6 +626,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #e7e9fc;
   border-radius: 50%;
@@ -637,12 +638,11 @@ button {
   width: 24px;
   height: 24px;
   padding: 0;
-  cursor: pointer;
 }
-.modal-close:hover,
-.modal-close:focus {
-  /* background-color: #404bbf;
-  border: none; */
+.modal-close-button:hover,
+.modal-close-button:focus {
+  background-color: #404bbf;
+  border: none;
   fill: #ffffff;
 }
 .icon-button {
@@ -802,5 +802,5 @@ button {
 }
 .modal-send-button:hover .icon-check,
 .modal-send-button:focus .icon-check {
-  fill: #ffffff;
+  fill: #fff;
 }
